@@ -1,0 +1,32 @@
+#accessinfo,#goodsProfit{
+	width : 100%;
+    overflow: auto;
+	}
+#ep{
+	text-align : center;
+	float: left;
+	width : 30%;
+	height : 500px; 
+	border : 5px solid #8c9fd9;
+	margin : 10px 15px;
+	margin-left : 15%;
+
+}
+#ep table, #st table{
+    width: 100%;
+}
+#st{
+	text-align : center;
+	float: left;
+	width : 30%;
+	height : 500px; 
+	border : 5px solid #8c9fd9;
+	margin : 10px 15px;
+	margin-left : 15%;
+    overflow: auto;
+}
+.title{
+		background-color : #8c9fd9;
+		color : #ffffff;
+		height : 10%;
+	}

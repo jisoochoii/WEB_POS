@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body		{
+	top:0; left:0;
+}
+
+.top-span	{
+	line-height: 3rem; padding-right:20px;
+}
+
+.top-span {
+	line-height : 50px; font-weight : 900;
+}
+
+.small-btn {
+	width : 10%; height : 2rem; margin-left : 2rem;
+	background-color : #FFFFFF; color : #489CFF;
+	border : 3px solid #FFFFFF;
+	font-weight : 900;
+}
+
+.small-btn-over {
+	width : 10%; height : 2rem; margin-left : 2rem;
+	background-color : #489CFF; color : #FFFFFF;
+	border : 3px solid #FFFFFF;
+	font-weight : 900;
+	cursor : pointer;
+}
+
+#header {
+	position:fixed;
+	width : 100%; height : 3rem;
+	left:0;right:0;top:0;
+	padding-right : 20px;
+	text-align : right;
+	background-color : #489CFF; color : #FFFFFF;
+	font-weight:800;
+	
+}
+
+#footer		{
+	position:fixed;
+	width:100%;height:3rem;
+	background-color:#489CFF;
+	left:0;right:0;bottom:0;
+}
+
+.modalBox {
+	position : absolute; top : 0; left : 0;
+	width : 100%; height : 100%;
+	display : none;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+
+.modalBody {
+	position : absolute;
+	width : 40%; height : 40%;
+	top : 50%; left : 50%; transform : translate(-50%, -50%);
+	border-radius : 10px;
+	box-shadow : 0 2px 3px rgba(34, 36, 38, 0.1);
+	background-color : #FFFFFF;
+}
+
+.modalTitle {
+	background-color : #489CFF; color : #FFFFFF;
+	border : 3px solid #489CFF;
+	font-size : 1.5rem;
+	text-align : center;
+	font-weight : bold;
+}
+
+.modalX {
+	width : 2rem; height : 2rem; vertical-align : top;
+	float : right;
+}
+
+.modalCL {
+	width : 100%; height : 100%; vertical-align : top;
+	background-color : red; color : #FFFFFF;
+	font-size : 1.5rem;
+	border : 1px solid red;
+	font-weight : bold;
+}
+
+.modalCommand {
+	text-align : center;
+}
